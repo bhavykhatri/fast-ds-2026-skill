@@ -20,6 +20,9 @@ skills/fast-ds-2026/
     evidence-pack.md           # what to upload, ZIP layout, PDF handling
     portal-form1.md            # Form 1 on the portal, field by field (with automation selectors)
     after-filing.md            # Form 2, ITNS 289 payment, Form 3, Form 4, future ITRs
+  examples/
+    sample-computation-statement.md  # fully worked FICTIONAL statement to copy the format from
+    sample_*.csv               # inputs that reproduce the sample's numbers with the scripts
   scripts/
     fastds_payable.py          # amount payable + payment deadlines and interest
     sbi_tt_rate.py             # Rule 115 SBI TT buying rate lookup

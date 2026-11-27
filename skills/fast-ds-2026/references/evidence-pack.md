@@ -6,7 +6,7 @@ Form 1 asks for supporting documents for income (I1) and a valuation report/proo
 | # | File | Contents |
 |---|---|---|
 | 00 | Entry guide | Field-by-field values to type into Form 1 (internal; not uploaded) |
-| 01 | Computation statement | Formal statement, no internal notes. Annexures: A income items, B capital-gain lots, C sold lots (Rule 3(2)), D inputs and sources |
+| 01 | Computation statement | Formal statement, no internal notes. Annexures: A income items, B capital-gain lots, C sold lots (Rule 3(2)), D inputs and sources. See `../examples/sample-computation-statement.md` |
 | 02 | Holdings evidence | Broker year-end reports per year + holding statement as at 31-3-2026 |
 | 03 | Transaction summaries | Dividends, purchases, sales for the years in scope |
 | 04 | Tax forms | US 1042-S (or the relevant foreign tax statements) |

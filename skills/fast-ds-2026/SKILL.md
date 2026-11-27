@@ -16,6 +16,7 @@ Other references, load when you reach that phase:
 - `references/evidence-pack.md` — what to upload, ZIP structure, PDF handling.
 - `references/portal-form1.md` — Form 1 on the e-Filing portal, field by field, with automation selectors.
 - `references/after-filing.md` — Form 2, ITNS 289 payment, Form 3, Form 4, and future ITRs.
+- `examples/sample-computation-statement.md` — a fully worked **fictional** computation statement (income + RSU shares) to copy the structure from; `examples/*.csv` reproduce its numbers with the scripts.
 
 Scripts (Python 3, stdlib + optional `requests`, `pymupdf`):
 - `scripts/fastds_payable.py` — amount payable and the full payment timeline (due dates, interest, void date) from a Form 2 date.
@@ -74,7 +75,7 @@ Follow `references/computation.md`. Key points:
 4. Record the user's decisions (basis chosen, estimates accepted, confirmations) in a review log.
 
 ### Phase 5 — Evidence pack
-Follow `references/evidence-pack.md`: an entry guide, a formal computation statement with annexures, and proof files grouped into the income ZIP and the asset ZIP, each ≤ 5 MB. Every Category 2 row needs acquisition, sale (if any) and valuation proof inside the asset ZIP.
+Follow `references/evidence-pack.md`: an entry guide, a formal computation statement with annexures (model it on `examples/sample-computation-statement.md`), and proof files grouped into the income ZIP and the asset ZIP, each ≤ 5 MB. Every Category 2 row needs acquisition, sale (if any) and valuation proof inside the asset ZIP.
 
 ### Phase 6 — Form 1 on the portal
 Follow `references/portal-form1.md`. The user logs in themselves. Fill each part, verify Part C/D totals against the workbook, stop at Preview, re-read it, and hand off for e-verification. The user downloads the acknowledgement and filed form.

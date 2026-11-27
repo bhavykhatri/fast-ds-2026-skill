@@ -10,6 +10,7 @@ It's aimed at salaried people with RSUs/ESPP in a US brokerage, foreign dividend
 
 ## What's inside
 ```
+.claude-plugin/                # Claude Code plugin + marketplace manifests
 skills/fast-ds-2026/
   SKILL.md                     # the workflow the agent follows (7 phases)
   references/
@@ -39,9 +40,15 @@ Form 1 (by 31-Dec-2026) → Form 2 (amount payable) → pay via challan ITNS 289
 
 ## Install
 
-**Claude Code**
+**Claude Code (plugin — easiest)**
+```
+/plugin marketplace add bhavykhatri/fast-ds-2026-skill
+/plugin install fast-ds-2026@fast-ds-2026
+```
+
+**Claude Code (manual copy)**
 ```bash
-git clone https://github.com/<you>/fast-ds-2026-skill.git
+git clone https://github.com/bhavykhatri/fast-ds-2026-skill.git
 mkdir -p ~/.claude/skills ~/.claude/agents
 cp -r fast-ds-2026-skill/skills/fast-ds-2026 ~/.claude/skills/
 cp fast-ds-2026-skill/agents/fast-ds-reviewer.md ~/.claude/agents/   # optional
